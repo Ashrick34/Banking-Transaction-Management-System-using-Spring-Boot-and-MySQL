@@ -57,11 +57,10 @@ git clone https://github.com/Ashrick34/Banking-Transaction-Management-System-usi
 
 3. Configure MySQL in application.properties:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/banking_db  
-spring.datasource.username=root  
-spring.datasource.password=your_password  
-
-spring.jpa.hibernate.ddl-auto=update  
+   spring.datasource.url=jdbc:mysql://localhost:3306/banking_db  
+   spring.datasource.username=root  
+   spring.datasource.password=your_password  
+   spring.jpa.hibernate.ddl-auto=update  
 
 4. Run the application:
 mvn spring-boot:run  
